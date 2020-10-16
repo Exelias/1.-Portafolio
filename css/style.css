@@ -1,0 +1,165 @@
+* {
+  box-sizing: border-box;
+  padding: 0px;
+
+
+}
+
+body {
+  font-family: Arial;
+  padding: 10px;
+  background: #f1f1f1;
+}
+
+#header {
+  width: 100%;
+  height: 100px;
+  background: rgb(40, 44, 54);
+  color: white;
+  text-align: center;
+  line-height: 100px;
+  /*centrar desde arriba el !!!!texto*/
+}
+
+.txtcentral p {
+  font-size: 20px;
+  color: black;
+}
+
+p {
+  font-size: 19px;
+
+}
+
+h2.destination {
+  background-color: #d94444;
+  padding: 10px;
+  margin-top: 10px;
+  font-size: 50px;
+}
+
+#Contenedor_principal {
+  width: 1700px;
+  height: 1719px;
+  border: 1px solid black;
+  margin: 0px auto;
+  /* de esta forma centro un elemento*/
+  margin-top: 20px;
+
+}
+
+h3.central {
+  font-size: 28px;
+}
+
+.rightico ul li {
+  font-size: 19px;
+  color: white;
+  margin-left: 15px;
+  text-align: left;
+}
+
+/* columna izquierda */
+.leftcolumn {
+  float: right;
+  width: 75%;
+}
+
+/* columna derecha*/
+.rightcolumn {
+  float: left;
+  width: 25%;
+  background-color: #181c1f;
+  /* padding-left: 20px; */
+  margin-top: 5px;
+}
+
+/*PARA EL COLOR DEL TEXTO DE LAS COLUMNAS IZQUIERDAS*/
+.right {
+  color: white;
+}
+
+/*PARA LA FOTO DE PERFIL*/
+.perfil {
+  background-color: black;
+  width: 100%;
+  border-radius: 30%;
+
+
+}
+
+/* PARA LOS ICONOS DE LA COLUMNA DERECHA*/
+.material-icons {
+  width: 10%;
+  padding: 20px;
+
+}
+
+.clearfix {
+  overflow: auto;
+}
+
+/* PARA LOS ICONOS DE LA COLUMNA IZQUIERDA*/
+.iconos_left_skill {
+  display: block;
+
+
+  width: 20%;
+  padding: 20px;
+  float: left;
+}
+
+/*AGREGA EFECTOS DE CARTA*/
+.card {
+  background-color: #1b1c1e;
+  padding: 8px;
+  margin-top:  21px;
+  
+}
+
+.Contactolink ul li:hover {
+  text-decoration: none;
+  
+  background: rgb(42, 42, 138);
+
+}
+
+
+
+.Contactolink ul li:hover a {
+  /*para cambiar color al pasar el cursos*/
+  text-decoration: none;
+  color: white;
+  margin-top: 15px;
+ 
+}
+
+
+/*PARA LOS TEXTOS CENTRALES*/
+.txtcentral {
+  background-color: #dedcdf;
+  padding: 15px;
+  margin-top: 4px;
+}
+
+#footer {
+  display: block;
+  float: left;
+  width: 100%;
+  height: 5%;
+  background: rgb(40, 44, 54);
+  color: white;
+  text-align: center;
+  line-height: 100px;
+  /*centrar desde arriba el texto*/
+}
+
+/* RESPONSIVA CUANDO LA PANTALLA ES MENOR QUE 800 PIXELES hacer que las dos columnas se apilen una encima de la otra en lugar de una al lado de la otra*/
+@media screen and (max-width: 800px) {
+
+  .leftcolumn,
+  .rightcolumn {
+    width: 100%;
+    padding: 0;
+  }
+}
