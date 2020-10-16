@@ -1,6 +1,8 @@
 
 
 # Práctica 01. Portafolio
+## Instrucciones
+### Para poder ejecutar este portafolio basta con entrar en la carpeta html de este repositorio y ejecutar el archivo "index.html".
 ## Lenguajes de marcado
  ### Para poder realizar esta practica implemente HTML junto a CSS en el editor de Visual Studio code, junto con algunos iconos e imagenes para poder darle un poco mas de estilo a este portafolio
 
